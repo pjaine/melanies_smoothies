@@ -13,8 +13,6 @@ st.write(
     """
 )
 
-st.write("Connections:", st.secrets["connections"])
-
 #option = st.selectbox(
 #    'How would you like to be contacted?',
 #    ('Banana', 'Strawberries', 'Peaches'))
