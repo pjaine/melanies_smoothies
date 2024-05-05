@@ -13,7 +13,7 @@ st.write(
     """
 )
 
-st.write("Connections:", st.secrets["connections.snowflake"])
+st.write("Connections:", st.secrets["connections"])
 st.write("DB username:", st.secrets["snowflake.user"])
 st.write("DB password:", st.secrets["snowflake.password"])
 
