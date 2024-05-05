@@ -14,8 +14,8 @@ st.write(
 )
 
 st.write("Connections:", st.secrets["connections"])
-st.write("DB username:", st.secrets["user"])
-st.write("DB password:", st.secrets["password"])
+st.write("DB username:", st.secrets["snowflake.user"])
+st.write("DB password:", st.secrets["snowflake.password"])
 
 #option = st.selectbox(
 #    'How would you like to be contacted?',
