@@ -13,6 +13,10 @@ st.write(
     """
 )
 
+st.write("Connections:", st.secrets["connections"])
+st.write("DB username:", st.secrets["user"])
+st.write("DB password:", st.secrets["password"])
+
 #option = st.selectbox(
 #    'How would you like to be contacted?',
 #    ('Banana', 'Strawberries', 'Peaches'))
