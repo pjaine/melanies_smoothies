@@ -14,8 +14,8 @@ st.write(
 )
 
 st.write("Connections:", st.secrets["connections"])
-st.write("DB username:", st.secrets["snowflake.user"])
-st.write("DB password:", st.secrets["snowflake.password"])
+#st.write("DB username:", st.secrets["snowflake.user"])
+#st.write("DB password:", st.secrets["snowflake.password"])
 
 #option = st.selectbox(
 #    'How would you like to be contacted?',
@@ -26,7 +26,7 @@ name_on_order = st.text_input('Name on Smoothie')
 st.write('The name on your smoothie will be :', name_on_order)
 
 
-cnx = st.connection("snowflake")
+cnx = st.connection(st.secrets["connections"])
 #session = get_active_session()
 session = cnx.session();
 
